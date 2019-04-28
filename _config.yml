@@ -1,1 +1,27 @@
-theme: jekyll-theme-leap-day
+
+# Site settings
+title: RaiHogar Limpieza and Servicios de Hogar
+email: rai@raihogar.com
+description: "RaiHogar Limpieza and Servicios de Hogar ofrece un servicio impecable de Limpieza y Servicios de Hogar como cuidado de ropa, lavado y planchado"
+
+
+# Team names, titles and social links
+people:
+- name: Raimunda Rodrigues Goncalves
+  pic: 1
+  position: Professional de Servicio de Hogar
+  
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/raihogar
+
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Torremolinos
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
