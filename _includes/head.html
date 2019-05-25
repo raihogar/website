@@ -22,7 +22,28 @@
           "priceRange":"€12-€25"
         }
         </script>
-    <link rel="shortcut icon" href="/favicon.ico">
+
+  <meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@HogarRai">
+<meta name="twitter:creator" content="@HogarRai">
+{% if page.title %}
+  <meta name="twitter:title" content="{{ page.title }}">
+{% else %}
+  <meta name="twitter:title" content="{{ site.title }}">
+{% endif %}
+{% if page.url %}
+  <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+{% endif %}
+{% if page.description %}
+  <meta name="twitter:description" content="{{ page.description }}">
+{% else %}
+  <meta name="twitter:description" content="{{ site.description }}">
+{% endif %}
+{% if page.image %}
+  <meta name="twitter:image:src" content="{{ site.url }}/favicon-192.png">
+{% else %}
+  <meta name="twitter:image:src" content="{{ site.url }}/favicon-192.png">
+{% endif %}  <link rel="shortcut icon" href="/favicon.ico">
     <link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico">
     <link rel="icon" type="image/png" sizes="196x196" href="/favicon-192.png">
     <link rel="icon" type="image/png" sizes="160x160" href="/favicon-160.png">
